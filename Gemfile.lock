@@ -1,0 +1,45 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.7)
+      public_suffix (>= 2.0.2, < 7.0)
+    base64 (0.2.0)
+    concurrent-ruby (1.3.3)
+    ferrum (0.15)
+      addressable (~> 2.5)
+      concurrent-ruby (~> 1.1)
+      webrick (~> 1.7)
+      websocket-driver (~> 0.7)
+    logger (1.6.0)
+    mini_portile2 (2.8.7)
+    nokogiri (1.16.6)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
+    public_suffix (6.0.0)
+    racc (1.8.0)
+    rexml (3.3.1)
+      strscan
+    rubyzip (2.3.2)
+    selenium-webdriver (4.22.0)
+      base64 (~> 0.2)
+      logger (~> 1.4)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2, < 3.0)
+      websocket (~> 1.0)
+    strscan (3.1.0)
+    webrick (1.8.1)
+    websocket (1.2.10)
+    websocket-driver (0.7.6)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ferrum
+  nokogiri
+  selenium-webdriver
+
+BUNDLED WITH
+   2.5.3
